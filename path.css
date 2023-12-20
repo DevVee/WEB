@@ -1,0 +1,111 @@
+/* Add this code at the end of your CSS file */
+@media (max-width: 432px){
+    .header{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: blue;
+
+    }
+
+    .comsci-logo{
+        width: 50px;
+        margin-right: 5px;
+    }
+    .icc_logo{
+        width: 30px;
+    }
+
+    .about{
+        color: white;
+    }
+
+    .icon-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 200px;
+        font-size: 25px;
+        color: white;
+        
+    }
+
+    .userIcon{
+        width: 40px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+
+    .user_section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90px;
+        margin-left: 20px;
+        margin-right: 10px;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        
+    }
+
+    .logo-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       justify-content: flex-start;
+        width: 150px;
+        
+    }
+
+    .menu-section{
+        width: 400px;
+        font-size: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+    }
+    .left-section{
+        display: flex;
+    }
+    .right-section{
+        display: flex;
+    }
+
+    .fa-caret-down{
+        color: white;
+    }
+    .home:hover {
+        color: #ffee10;
+        cursor: pointer;
+        text-shadow: 0 0 5px #8d8400;
+        
+      }
+
+      .about:hover {
+        color: #ffee10;
+        cursor: pointer;
+        text-shadow: 0 0 5px #8d8400;
+      }
+
+      .events:hover {
+        color: #ffee10;
+        cursor: pointer;
+        text-shadow: 0 0 5px #8d8400;
+      }
+
+      .lessons:hover {
+        color: #ffee10;
+        cursor: pointer;
+        text-shadow: 0 0 5px #8d8400;
+      }
+
+        i:hover {
+            color: #ffee10;
+            cursor: pointer;
+            text-shadow: 0 0 5px #ffee10;
+          }
+}

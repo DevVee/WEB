@@ -1,0 +1,217 @@
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: blue;
+
+}
+.comsci-logo{
+    width: 50px;
+    margin-right: 5px;
+}
+.icc_logo{
+    width: 30px;
+}
+
+.about{
+    color: white;
+}
+
+.icon-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    font-size: 25px;
+    color: white;
+    
+}
+
+.userIcon{
+    width: 40px;
+    margin-right: 5px;
+}
+
+.user_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    margin-left: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    
+}
+
+.about{
+    cursor: pointer;
+    border-bottom: 2px solid yellow ;
+   color: #ffee10;
+}
+
+.logo-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   justify-content: flex-start;
+    width: 150px;
+    
+}
+
+.menu-section{
+    width: 400px;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.left-section{
+    display: flex;
+}
+.right-section{
+    display: flex;
+}
+
+.fa-caret-down{
+    color: white;
+}
+.home:hover {
+    color: #ffee10;
+    cursor: pointer;
+    text-shadow: 0 0 5px #8d8400;
+    
+  }
+
+  .about:hover {
+    color: #ffee10;
+    cursor: pointer;
+    text-shadow: 0 0 5px #8d8400;
+  }
+
+  .events:hover {
+    color: #ffee10;
+    cursor: pointer;
+    text-shadow: 0 0 5px #8d8400;
+  }
+
+  .lessons:hover {
+    color: #ffee10;
+    cursor: pointer;
+    text-shadow: 0 0 5px #8d8400;
+  }
+
+    i:hover {
+        color: #ffee10;
+        cursor: pointer;
+        text-shadow: 0 0 5px #ffee10;
+      }
+
+      .content{
+        width: 500px;
+        height: 500px;
+        border: 2px solid rgba(0, 0, 0, 0.356);
+        padding: 10px;
+        padding-top: 5px;
+        background-color: rgb(255, 255, 255);
+        background-image: url("ICCBD");
+    }
+    
+    .HomePage{
+        width: 100%;
+        display: flex;
+        padding: 40px;
+        padding-left: 100px;
+    }
+    
+    .content-header{
+        font-size: 8px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        border: 2px solid rgba(0, 0, 0, 0.356);
+        border-bottom: none;
+        padding: 10px;
+        border-radius: 20px 20px 0px 0px;
+        background-color: white;
+    
+    }
+    
+    .USER_PROFILE{
+        width: 50px;
+        margin-right: 5px;
+    }
+    .content-username{
+        color: rgb(0, 162, 255);
+        margin: 0;
+    }
+    .content-text{
+        display: flex;
+        justify-content: center;
+        
+        flex-direction: column;
+        margin-right: 230px;
+    }
+    
+    .upload-time{
+    margin: 0;
+    font-size: 9px;
+    }
+    
+    .status-update{
+        margin: 0;
+    font-size: 10px;
+    }
+    
+    .fa-ellipsis{
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    .user-update-post{
+        width: 500px;
+    
+    }
+
+    .home{
+        color: white;
+        border: none;
+    }
+    body{
+        font-family:'Open Sans';
+        font-weight: 300;
+        margin: 0;
+        
+    }
+    
+    
+    #user_option{
+        width: 150px;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        align-items: center;
+        left: 1080px;
+        top: 73px;
+        opacity: 0;
+        
+    }
+    
+    .user-menu-option{
+        background-color: #ffffff85;
+        height: 35px;
+        border: 1px solid rgba(0, 0, 0, 0.377);
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       font-size: 12px;
+       font-weight: 500;
+    }
+   
